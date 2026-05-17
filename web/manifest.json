@@ -20,6 +20,10 @@
         {
           "path": "parkstadbuddy.ino.bin",
           "offset": 65536
+        },
+        {
+          "path": "parkstadbuddy.spiffs.bin",
+          "offset": 2162688
         }
       ]
     }
