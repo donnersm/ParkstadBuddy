@@ -6,7 +6,7 @@
       "improv": false,
       "parts": [
         {
-          "path": "bootloader_dio_80m.bin",
+          "path": "bootloader_dio_40m.elf",
           "offset": 4096
         },
         {
