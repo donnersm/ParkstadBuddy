@@ -1,34 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>ESP32 Installer</title>
-</head>
-
 <body>
-
-<button id="install">
-  Install ESP32
-</button>
-
-<script type="module">
-  import { install }
-    from "https://unpkg.com/esp-web-tools@9/dist/web/install-button.js";
-
-  async function doInstall() {
-
-    const device = await navigator.serial.requestPort();
-
-    await install(device, {
-      manifest: "manifest.json",
-      baudrate: 115200
-    });
-  }
-
-  document.querySelector("#install")
-    .addEventListener("click", doInstall);
-
-</script>
-
+    <h1>Parkstad Buddy For Desktop</h1>
+    <script type="module" src="https://unpkg.com/esp-web-tools@3.4.2/dist/web/install-button.js?module"></script>
+    <esp-web-install-button manifest="web/manifest.json"></esp-web-install-button>
 </body>
-</html>
