@@ -1,16 +1,16 @@
 {
-  "name": "ParkstadBuddy",
+  "name": "DesktopBuddy",
   "builds": [
     {
       "chipFamily": "ESP32",
       "improv": false,
       "parts": [
         {
-          "path": "1DesktopBuddy.ino.bootloader.bin",
+          "path": "DesktopBuddy.ino.bootloader.bin",
           "offset": 4096
         },
         {
-          "path": "1DesktopBuddy.ino.partitions.bin",
+          "path": "DesktopBuddy.ino.partitions.bin",
           "offset": 32768
         },
         {
@@ -18,7 +18,7 @@
           "offset": 57344
         },
         {
-          "path": "1DesktopBuddy.ino.bin",
+          "path": "DesktopBuddy.ino.bin",
           "offset": 65536
         },
         {
