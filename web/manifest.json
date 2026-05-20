@@ -6,11 +6,11 @@
       "improv": false,
       "parts": [
         {
-          "path": "parkstadbuddy.ino.bootloader.bin",
+          "path": "1DesktopBuddy.ino.bootloader.bin",
           "offset": 4096
         },
         {
-          "path": "parkstadbuddy.ino.partitions.bin",
+          "path": "1DesktopBuddy.ino.partitions.bin",
           "offset": 32768
         },
         {
@@ -18,7 +18,7 @@
           "offset": 57344
         },
         {
-          "path": "parkstadbuddy.ino.bin",
+          "path": "1DesktopBuddy.ino.bin",
           "offset": 65536
         },
         {
